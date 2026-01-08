@@ -32,54 +32,6 @@ const routes = [
     meta: {
       title: '虚拟修复实验室 - 时空博物馆'
     }
-  },
-  {
-    path: '/artifact/:id',
-    name: 'ArtifactDetail',
-    component: () => import('@/views/ArtifactDetailView.vue'),
-    meta: {
-      title: '文物详情 - 时空博物馆'
-    }
-  },
-  {
-    path: '/exhibition/:id',
-    name: 'ExhibitionDetail',
-    component: () => import('@/views/ExhibitionDetailView.vue'),
-    meta: {
-      title: '展览详情 - 时空博物馆'
-    }
-  },
-  {
-    path: '/ai-guide',
-    name: 'AIGuide',
-    component: () => import('@/views/AIGuideView.vue'),
-    meta: {
-      title: 'AI智能解说 - 时空博物馆'
-    }
-  },
-  {
-    path: '/user/collection',
-    name: 'UserCollection',
-    component: () => import('@/views/UserCollectionView.vue'),
-    meta: {
-      title: '我的收藏 - 时空博物馆'
-    }
-  },
-  {
-    path: '/search',
-    name: 'Search',
-    component: () => import('@/views/SearchView.vue'),
-    meta: {
-      title: '搜索 - 时空博物馆'
-    }
-  },
-  {
-    path: '/:pathMatch(.*)*',
-    name: 'NotFound',
-    component: () => import('@/views/NotFoundView.vue'),
-    meta: {
-      title: '页面未找到 - 时空博物馆'
-    }
   }
 ]
 
